@@ -18,8 +18,14 @@ O banco de dados contém várias tabelas, incluindo informações sobre clientes
 
 ## Objetivo Proposto
 
-O objetivo proposto para a prática é a análise de vendas da empresa, levando em consideração informações como local, data, tipo do produto, quantidade de itens e preço da venda. 
+O objetivo desta prática é realizar uma análise detalhada das vendas da empresa, considerando variáveis como local de venda, data da transação, tipo de produto, quantidade de itens vendidos e preço de cada venda. O intuito é fornecer insights valiosos para a tomada de decisões estratégicas, permitindo uma compreensão mais aprofundada dos padrões de consumo e do desempenho comercial.
 
 ## Modelo de DW 
+
+![Modelo DW](modeloDW.png)
+
+## Implementação
+
+Com o modelo proposto, serão realizadas diversas queries, que serão responsáveis por implementar efetivamente o modelo dado. As mesmas se encontram na pasta 'SQL queries' separadas de acordo com cada ação realizada.
 
 

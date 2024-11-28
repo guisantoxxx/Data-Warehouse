@@ -6,7 +6,7 @@ CREATE TABLE tabela_temp (
 	data_t DATE,
 	preco_total REAL,
 	qtd BIGINT
-)
+);
 
 INSERT INTO tabela_temp(cidade, nome, data_t, preco_total, qtd)
 SELECT 

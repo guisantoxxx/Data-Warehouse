@@ -6,7 +6,7 @@ CREATE TABLE tabela_aux (
 	order_date date,
 	order_price REAL,
 	quantity BIGINT
-)
+);
 
 
 INSERT INTO tabela_aux(city,product_name,order_date,order_price, quantity)

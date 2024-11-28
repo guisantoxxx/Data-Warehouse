@@ -14,4 +14,4 @@ SELECT cidade, nome, data_t, preco_total, qtd
 FROM dblink('dbname=Northwind ',
                 'SELECT  cidade, nome, data_t, preco_total, qtd FROM tabela_temp')
 				AS remote_table(cidade VARCHAR, nome VARCHAR, data_t DATE, preco_total REAL,
-							   qtd BIGINT)
+							   qtd BIGINT);

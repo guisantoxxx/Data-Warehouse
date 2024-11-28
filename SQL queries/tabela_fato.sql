@@ -8,4 +8,4 @@ CREATE TABLE fato_vendas (
 	FOREIGN KEY(pk_produto) REFERENCES dimensao_produto(pk_produto)
 	FOREIGN KEY(pk_local) REFERENCES dimensao_local(pk_local)
 	FOREIGN KEY(pk_tempo) REFERENCES dimensao_tempo(pk_tempo)
-)
+);

@@ -18,4 +18,4 @@ SELECT
 FROM order_details od
 JOIN orders o ON od.order_id = o.order_id
 JOIN products p ON p.product_id = od.product_id
-GROUP BY p.product_name, o.order_date, o.ship_country, o.ship_city;
+GROUP BY p.product_id, o.order_date, o.ship_country, o.ship_city;
